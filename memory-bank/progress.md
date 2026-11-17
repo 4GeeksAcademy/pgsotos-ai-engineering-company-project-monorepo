@@ -4,7 +4,7 @@
 La infraestructura de agentes ya estaba en `main` (PR #2). En esta rama se revisa contra el enunciado y se mejora por etapas, un commit por etapa:
 - [x] Etapa 1, banco de memoria: `techContext.md` documenta la configuración de agentes y la diferencia entre `.agents/` y `/agents` y `/skills`.
 - [x] Etapa 2, `AGENTS.md`: flujo previo al commit con la skill que lo ejecuta, lista ampliada de archivos protegidos y cuándo detenerse a preguntar.
-- [ ] Etapa 3, reglas de `.agents/`.
+- [x] Etapa 3, reglas de `.agents/`: nueva regla `code-placement` (por patrón) con dónde va el código de `/uis`, `/services`, `/agents` y `/skills`.
 - [ ] Etapa 4, skills.
 
 ## Hecho
