@@ -5,7 +5,7 @@ La infraestructura de agentes ya estaba en `main` (PR #2). En esta rama se revis
 - [x] Etapa 1, banco de memoria: `techContext.md` documenta la configuración de agentes y la diferencia entre `.agents/` y `/agents` y `/skills`.
 - [x] Etapa 2, `AGENTS.md`: flujo previo al commit con la skill que lo ejecuta, lista ampliada de archivos protegidos y cuándo detenerse a preguntar.
 - [x] Etapa 3, reglas de `.agents/`: nueva regla `code-placement` (por patrón) con dónde va el código de `/uis`, `/services`, `/agents` y `/skills`.
-- [ ] Etapa 4, skills.
+- [x] Etapa 4, skills: nueva skill `commit-flow-check` (objetivo único, inputs y 9 criterios verificables). Sus comandos se probaron con casos que pasan y casos que fallan.
 
 ## Hecho
 - Briefing agregado al repo.
