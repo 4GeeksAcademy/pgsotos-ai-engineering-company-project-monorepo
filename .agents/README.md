@@ -4,5 +4,5 @@ Configuración de las herramientas de desarrollo con IA (reglas y skills para el
 
 NO es lo mismo que las carpetas `/agents` y `/skills` del monorepo, que contienen código de producto.
 
-- `rules/`: reglas con alcance explícito.
+- `rules/`: reglas con alcance explícito (`briefing-fidelity`, `website-html`, `code-placement`).
 - `skills/`: procedimientos reutilizables (p. ej. `briefing-content-check`).

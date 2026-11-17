@@ -13,6 +13,14 @@
 - Tailwind por utilidades; `styles.css` solo si es imprescindible.
 - Formulario: validación en `validation.js`, envío simulado.
 
+## Configuración de agentes
+- `AGENTS.md` (raíz): protocolo del agente. Define qué se lee al inicio, el flujo previo a cada commit y qué no se toca sin confirmación.
+- `.agents/rules/` y `.agents/skills/`: reglas y skills que enseñan al agente de código (Claude Code, Cursor, Windsurf…) a trabajar en este repo. No son código de producto.
+- `/agents` y `/skills` (raíz): carpetas de producto para los agentes e integraciones de la empresa en módulos posteriores. No se mezclan con `.agents/`.
+- Reglas vigentes: `briefing-fidelity` (siempre activa), `website-html` (por patrón) y `code-placement` (por patrón).
+- Skills vigentes: `briefing-content-check` (contenido de un HTML frente al briefing) y `commit-flow-check` (flujo previo al commit).
+- Este banco de memoria se actualiza al cambiar una decisión, una restricción o el estado del desarrollo.
+
 ## Dónde vive el código
 - `/uis`: todos los frontends.
   - `./uis/website`: web corporativa pública (ruta `/`, marca y copy alineados con `BRIEFING.md`).
